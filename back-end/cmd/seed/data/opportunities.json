@@ -1,0 +1,452 @@
+[
+  {
+    "partnerIdIndex": 0,
+    "accountName": "Global Banking Corp",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 250000,
+    "expectedCloseDate": "2026-04-15",
+    "status": "registered",
+    "daysAgo": 45
+  },
+  {
+    "partnerIdIndex": 0,
+    "accountName": "FinTech Innovations LLC",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 180000,
+    "expectedCloseDate": "2026-05-01",
+    "status": "requested",
+    "daysAgo": 42
+  },
+  {
+    "partnerIdIndex": 1,
+    "accountName": "Retail Giants International",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoML"],
+    "budgetaryAmount": 320000,
+    "expectedCloseDate": "2026-04-30",
+    "status": "requested",
+    "daysAgo": 40
+  },
+  {
+    "partnerIdIndex": 1,
+    "accountName": "Healthcare Data Solutions",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 150000,
+    "expectedCloseDate": "2026-06-15",
+    "status": "requested",
+    "daysAgo": 38
+  },
+  {
+    "partnerIdIndex": 2,
+    "accountName": "Canadian Government - Digital Services",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 450000,
+    "expectedCloseDate": "2026-07-01",
+    "status": "requested",
+    "daysAgo": 35
+  },
+  {
+    "partnerIdIndex": 2,
+    "accountName": "Telecom Canada Inc",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 280000,
+    "expectedCloseDate": "2026-05-20",
+    "status": "registered",
+    "daysAgo": 33
+  },
+  {
+    "partnerIdIndex": 3,
+    "accountName": "BMW Manufacturing",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 380000,
+    "expectedCloseDate": "2026-04-10",
+    "status": "registered",
+    "daysAgo": 30
+  },
+  {
+    "partnerIdIndex": 3,
+    "accountName": "Deutsche Bank AG",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 420000,
+    "expectedCloseDate": "2026-06-01",
+    "status": "requested",
+    "daysAgo": 28
+  },
+  {
+    "partnerIdIndex": 4,
+    "accountName": "Banco Nacional de México",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML"],
+    "budgetaryAmount": 195000,
+    "expectedCloseDate": "2026-05-15",
+    "status": "requested",
+    "daysAgo": 25
+  },
+  {
+    "partnerIdIndex": 4,
+    "accountName": "E-commerce Mexico SA",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 125000,
+    "expectedCloseDate": "2026-04-25",
+    "status": "registered",
+    "daysAgo": 23
+  },
+  {
+    "partnerIdIndex": 5,
+    "accountName": "Sony Corporation",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoSearch"],
+    "budgetaryAmount": 550000,
+    "expectedCloseDate": "2026-08-01",
+    "status": "requested",
+    "daysAgo": 20
+  },
+  {
+    "partnerIdIndex": 5,
+    "accountName": "Mitsubishi Heavy Industries",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 480000,
+    "expectedCloseDate": "2026-07-15",
+    "status": "requested",
+    "daysAgo": 18
+  },
+  {
+    "partnerIdIndex": 6,
+    "accountName": "Stockholm Smart City Initiative",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 290000,
+    "expectedCloseDate": "2026-06-30",
+    "status": "requested",
+    "daysAgo": 15
+  },
+  {
+    "partnerIdIndex": 6,
+    "accountName": "Vattenfall Energy",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 210000,
+    "expectedCloseDate": "2026-05-10",
+    "status": "registered",
+    "daysAgo": 13
+  },
+  {
+    "partnerIdIndex": 7,
+    "accountName": "Woolworths Australia",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML"],
+    "budgetaryAmount": 165000,
+    "expectedCloseDate": "2026-04-20",
+    "status": "registered",
+    "daysAgo": 10
+  },
+  {
+    "partnerIdIndex": 7,
+    "accountName": "Qantas Airways",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 240000,
+    "expectedCloseDate": "2026-06-05",
+    "status": "requested",
+    "daysAgo": 8
+  },
+  {
+    "partnerIdIndex": 8,
+    "accountName": "Sanofi Pharmaceuticals",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 390000,
+    "expectedCloseDate": "2026-07-20",
+    "status": "requested",
+    "daysAgo": 5
+  },
+  {
+    "partnerIdIndex": 8,
+    "accountName": "Renault Group",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 330000,
+    "expectedCloseDate": "2026-05-25",
+    "status": "requested",
+    "daysAgo": 3
+  },
+  {
+    "partnerIdIndex": 9,
+    "accountName": "DBS Bank Singapore",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML", "ArangoSearch"],
+    "budgetaryAmount": 420000,
+    "expectedCloseDate": "2026-04-05",
+    "status": "registered",
+    "daysAgo": 2
+  },
+  {
+    "partnerIdIndex": 9,
+    "accountName": "Grab Holdings",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 375000,
+    "expectedCloseDate": "2026-06-10",
+    "status": "registered",
+    "daysAgo": 1
+  },
+  {
+    "partnerIdIndex": 10,
+    "accountName": "Petrobras",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 310000,
+    "expectedCloseDate": "2026-08-15",
+    "status": "requested",
+    "daysAgo": 48
+  },
+  {
+    "partnerIdIndex": 10,
+    "accountName": "Magazine Luiza",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 145000,
+    "expectedCloseDate": "2026-05-05",
+    "status": "requested",
+    "daysAgo": 46
+  },
+  {
+    "partnerIdIndex": 11,
+    "accountName": "State Bank of India",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 520000,
+    "expectedCloseDate": "2026-09-01",
+    "status": "requested",
+    "daysAgo": 44
+  },
+  {
+    "partnerIdIndex": 11,
+    "accountName": "AIIMS Delhi",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 280000,
+    "expectedCloseDate": "2026-07-10",
+    "status": "requested",
+    "daysAgo": 41
+  },
+  {
+    "partnerIdIndex": 12,
+    "accountName": "Standard Bank South Africa",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML"],
+    "budgetaryAmount": 235000,
+    "expectedCloseDate": "2026-06-20",
+    "status": "requested",
+    "daysAgo": 39
+  },
+  {
+    "partnerIdIndex": 12,
+    "accountName": "Shoprite Holdings",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 175000,
+    "expectedCloseDate": "2026-05-30",
+    "status": "registered",
+    "daysAgo": 36
+  },
+  {
+    "partnerIdIndex": 13,
+    "accountName": "Port of Rotterdam",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 340000,
+    "expectedCloseDate": "2026-06-25",
+    "status": "requested",
+    "daysAgo": 34
+  },
+  {
+    "partnerIdIndex": 13,
+    "accountName": "ASML Manufacturing",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 410000,
+    "expectedCloseDate": "2026-08-05",
+    "status": "requested",
+    "daysAgo": 31
+  },
+  {
+    "partnerIdIndex": 14,
+    "accountName": "NH Hotel Group",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 155000,
+    "expectedCloseDate": "2026-05-15",
+    "status": "registered",
+    "daysAgo": 29
+  },
+  {
+    "partnerIdIndex": 14,
+    "accountName": "Inditex (Zara)",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoML"],
+    "budgetaryAmount": 395000,
+    "expectedCloseDate": "2026-07-01",
+    "status": "registered",
+    "daysAgo": 26
+  },
+  {
+    "partnerIdIndex": 15,
+    "accountName": "Samsung Electronics",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 620000,
+    "expectedCloseDate": "2026-09-15",
+    "status": "requested",
+    "daysAgo": 24
+  },
+  {
+    "partnerIdIndex": 15,
+    "accountName": "SK Telecom",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 475000,
+    "expectedCloseDate": "2026-08-20",
+    "status": "requested",
+    "daysAgo": 21
+  },
+  {
+    "partnerIdIndex": 16,
+    "accountName": "UniCredit Bank",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML"],
+    "budgetaryAmount": 315000,
+    "expectedCloseDate": "2026-06-15",
+    "status": "requested",
+    "daysAgo": 19
+  },
+  {
+    "partnerIdIndex": 16,
+    "accountName": "Generali Insurance",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 260000,
+    "expectedCloseDate": "2026-05-20",
+    "status": "registered",
+    "daysAgo": 16
+  },
+  {
+    "partnerIdIndex": 17,
+    "accountName": "Emirates NBD",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoSearch"],
+    "budgetaryAmount": 485000,
+    "expectedCloseDate": "2026-07-30",
+    "status": "requested",
+    "daysAgo": 14
+  },
+  {
+    "partnerIdIndex": 17,
+    "accountName": "Dubai Smart City",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 560000,
+    "expectedCloseDate": "2026-09-01",
+    "status": "requested",
+    "daysAgo": 11
+  },
+  {
+    "partnerIdIndex": 18,
+    "accountName": "Allegro E-commerce",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML"],
+    "budgetaryAmount": 185000,
+    "expectedCloseDate": "2026-05-10",
+    "status": "declined",
+    "daysAgo": 9
+  },
+  {
+    "partnerIdIndex": 18,
+    "accountName": "InPost Logistics",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 135000,
+    "expectedCloseDate": "2026-06-01",
+    "status": "requested",
+    "daysAgo": 6
+  },
+  {
+    "partnerIdIndex": 19,
+    "accountName": "Mercado Libre",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoML"],
+    "budgetaryAmount": 425000,
+    "expectedCloseDate": "2026-04-18",
+    "status": "registered",
+    "daysAgo": 4
+  },
+  {
+    "partnerIdIndex": 19,
+    "accountName": "Banco Galicia",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 295000,
+    "expectedCloseDate": "2026-06-08",
+    "status": "requested",
+    "daysAgo": 2
+  },
+  {
+    "partnerIdIndex": 1,
+    "accountName": "NHS Digital UK",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 380000,
+    "expectedCloseDate": "2026-08-10",
+    "status": "requested",
+    "daysAgo": 50
+  },
+  {
+    "partnerIdIndex": 3,
+    "accountName": "Siemens AG",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 510000,
+    "expectedCloseDate": "2026-07-25",
+    "status": "requested",
+    "daysAgo": 47
+  },
+  {
+    "partnerIdIndex": 5,
+    "accountName": "Rakuten Inc",
+    "productSkus": ["ArangoDB Enterprise", "ArangoML"],
+    "budgetaryAmount": 295000,
+    "expectedCloseDate": "2026-05-28",
+    "status": "declined",
+    "daysAgo": 43
+  },
+  {
+    "partnerIdIndex": 7,
+    "accountName": "Telstra Corporation",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 270000,
+    "expectedCloseDate": "2026-06-12",
+    "status": "requested",
+    "daysAgo": 37
+  },
+  {
+    "partnerIdIndex": 11,
+    "accountName": "Reliance Industries",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoSearch"],
+    "budgetaryAmount": 680000,
+    "expectedCloseDate": "2026-10-01",
+    "status": "requested",
+    "daysAgo": 32
+  },
+  {
+    "partnerIdIndex": 13,
+    "accountName": "Royal Dutch Shell",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 540000,
+    "expectedCloseDate": "2026-09-10",
+    "status": "requested",
+    "daysAgo": 27
+  },
+  {
+    "partnerIdIndex": 15,
+    "accountName": "Hyundai Motor Company",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform"],
+    "budgetaryAmount": 445000,
+    "expectedCloseDate": "2026-08-25",
+    "status": "requested",
+    "daysAgo": 22
+  },
+  {
+    "partnerIdIndex": 17,
+    "accountName": "Etisalat UAE",
+    "productSkus": ["ArangoDB Enterprise", "ArangoSearch"],
+    "budgetaryAmount": 365000,
+    "expectedCloseDate": "2026-07-05",
+    "status": "registered",
+    "daysAgo": 17
+  },
+  {
+    "partnerIdIndex": 19,
+    "accountName": "YPF Energy",
+    "productSkus": ["ArangoDB Enterprise"],
+    "budgetaryAmount": 320000,
+    "expectedCloseDate": "2026-08-30",
+    "status": "requested",
+    "daysAgo": 12
+  },
+  {
+    "partnerIdIndex": 0,
+    "accountName": "Citibank USA",
+    "productSkus": ["ArangoDB Enterprise", "ArangoGraph Insights Platform", "ArangoML"],
+    "budgetaryAmount": 750000,
+    "expectedCloseDate": "2026-10-15",
+    "status": "requested",
+    "daysAgo": 7
+  }
+]

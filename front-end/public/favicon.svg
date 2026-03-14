@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <path d="M264 320c11.046 0 20-8.954 20-20 0-11.046-8.954-20-20-20s-20 8.954-20 20c0 11.046 8.954 20 20 20z" fill="#044926"/>
+  
+  <!-- Left sleeve -->
+  <path d="M120 230 L30 100 L90 95 L155 220 L120 230 Z" fill="#ffffff" stroke="#044926" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Right sleeve -->
+  <path d="M392 230 L482 100 L422 95 L357 220 L392 230 Z" fill="#ffffff" stroke="#044926" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Left hand/wrist -->
+  <path d="M120 230 Q 140 250 180 260 L 220 240" fill="#ffffff" stroke="#044926" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right hand/wrist -->
+  <path d="M392 230 Q 372 250 332 260 L 292 240" fill="#ffffff" stroke="#044926" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Handshake center -->
+  <ellipse cx="256" cy="235" rx="60" ry="45" fill="#b9ff38" stroke="#044926" stroke-width="12"/>
+  
+  <!-- Left hand fingers -->
+  <path d="M 220 270 Q 240 310 270 340" stroke="#044926" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M 235 260 Q 255 300 280 325" stroke="#044926" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M 250 250 Q 265 285 285 310" stroke="#044926" stroke-width="12" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right hand fingers -->
+  <path d="M 292 270 Q 272 310 242 340" stroke="#044926" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M 277 260 Q 257 300 232 325" stroke="#044926" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M 262 250 Q 247 285 227 310" stroke="#044926" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>

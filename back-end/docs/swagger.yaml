@@ -1,0 +1,833 @@
+basePath: /api
+definitions:
+  handlers.LoginRequest:
+    properties:
+      password:
+        type: string
+      username:
+        type: string
+    type: object
+  handlers.LoginResponse:
+    properties:
+      partnerId:
+        type: string
+      role:
+        type: string
+      token:
+        type: string
+      username:
+        type: string
+    type: object
+  models.Account:
+    properties:
+      _key:
+        type: string
+      createdAt:
+        type: string
+      email:
+        type: string
+      firstName:
+        type: string
+      isActive:
+        type: boolean
+      lastLoginAt:
+        type: string
+      lastName:
+        type: string
+      partnerId:
+        type: string
+      passwordHash:
+        type: string
+      role:
+        description: '"partner", "admin"'
+        type: string
+      updatedAt:
+        type: string
+      username:
+        type: string
+    type: object
+  models.AccountCreateRequest:
+    properties:
+      email:
+        type: string
+      firstName:
+        type: string
+      lastName:
+        type: string
+      partnerId:
+        type: string
+      password:
+        minLength: 8
+        type: string
+      role:
+        enum:
+        - partner
+        - admin
+        type: string
+      username:
+        minLength: 3
+        type: string
+    required:
+    - email
+    - firstName
+    - lastName
+    - partnerId
+    - password
+    - role
+    - username
+    type: object
+  models.AccountUpdateRequest:
+    properties:
+      email:
+        type: string
+      firstName:
+        type: string
+      isActive:
+        type: boolean
+      lastName:
+        type: string
+    type: object
+  models.ChangePasswordRequest:
+    properties:
+      currentPassword:
+        type: string
+      newPassword:
+        minLength: 8
+        type: string
+    required:
+    - currentPassword
+    - newPassword
+    type: object
+  models.Contact:
+    properties:
+      email:
+        type: string
+      name:
+        type: string
+      phone:
+        type: string
+    type: object
+  models.Opportunity:
+    properties:
+      _key:
+        type: string
+      accountName:
+        type: string
+      budgetaryAmount:
+        type: number
+      createdAt:
+        type: string
+      customerContact:
+        $ref: '#/definitions/models.Contact'
+      expectedCloseDate:
+        type: string
+      partnerComment:
+        type: string
+      partnerId:
+        type: string
+      productSkus:
+        items:
+          type: string
+        type: array
+      quantity:
+        type: integer
+      status:
+        type: string
+      statusHistory:
+        items:
+          $ref: '#/definitions/models.StatusHistoryEntry'
+        type: array
+      updatedAt:
+        type: string
+      vendorComment:
+        type: string
+    type: object
+  models.OpportunityRequest:
+    properties:
+      accountName:
+        type: string
+      budgetaryAmount:
+        minimum: 0
+        type: number
+      customerContact:
+        $ref: '#/definitions/models.Contact'
+      expectedCloseDate:
+        type: string
+      partnerComment:
+        type: string
+      partnerId:
+        type: string
+      productSkus:
+        items:
+          type: string
+        minItems: 1
+        type: array
+      quantity:
+        minimum: 1
+        type: integer
+      status:
+        type: string
+      vendorComment:
+        type: string
+    required:
+    - accountName
+    - budgetaryAmount
+    - customerContact
+    - expectedCloseDate
+    - partnerId
+    - productSkus
+    - quantity
+    - status
+    type: object
+  models.Partner:
+    properties:
+      _key:
+        type: string
+      additionalComments:
+        type: string
+      aiExperience:
+        type: string
+      annualRevenue:
+        type: string
+      arangoEngagements:
+        type: string
+      companyName:
+        type: string
+      contacts:
+        items:
+          $ref: '#/definitions/models.PartnerContact'
+        type: array
+      country:
+        type: string
+      createdAt:
+        type: string
+      graphDatabaseFit:
+        type: string
+      industryVerticalFocus:
+        items:
+          type: string
+        type: array
+      keyPartners:
+        type: string
+      marketFocus:
+        items:
+          type: string
+        type: array
+      numberOfEmployees:
+        type: string
+      primaryPartnerBusiness:
+        items:
+          type: string
+        type: array
+      registrationStatus:
+        type: string
+      statusHistory:
+        items:
+          $ref: '#/definitions/models.StatusHistoryEntry'
+        type: array
+      trainedStaffMembers:
+        type: string
+      updatedAt:
+        type: string
+      useCases:
+        items:
+          type: string
+        type: array
+    type: object
+  models.PartnerContact:
+    properties:
+      businessEmail:
+        type: string
+      firstName:
+        type: string
+      jobTitle:
+        type: string
+      lastName:
+        type: string
+      phoneNumber:
+        type: string
+      type:
+        description: '"business" or "technical"'
+        type: string
+    type: object
+  models.PartnerRegistrationRequest:
+    properties:
+      additionalComments:
+        type: string
+      aiExperience:
+        type: string
+      annualRevenue:
+        type: string
+      arangoEngagements:
+        type: string
+      companyName:
+        type: string
+      contacts:
+        items:
+          $ref: '#/definitions/models.PartnerContact'
+        minItems: 1
+        type: array
+      country:
+        type: string
+      graphDatabaseFit:
+        type: string
+      industryVerticalFocus:
+        items:
+          type: string
+        minItems: 1
+        type: array
+      keyPartners:
+        type: string
+      marketFocus:
+        items:
+          type: string
+        minItems: 1
+        type: array
+      numberOfEmployees:
+        type: string
+      primaryPartnerBusiness:
+        items:
+          type: string
+        minItems: 1
+        type: array
+      registrationStatus:
+        type: string
+      statusHistoryEntry:
+        $ref: '#/definitions/models.StatusHistoryEntry'
+      trainedStaffMembers:
+        type: string
+      useCases:
+        items:
+          type: string
+        minItems: 1
+        type: array
+    required:
+    - aiExperience
+    - annualRevenue
+    - arangoEngagements
+    - companyName
+    - contacts
+    - country
+    - graphDatabaseFit
+    - industryVerticalFocus
+    - keyPartners
+    - marketFocus
+    - numberOfEmployees
+    - primaryPartnerBusiness
+    - trainedStaffMembers
+    - useCases
+    type: object
+  models.StatusHistoryEntry:
+    properties:
+      changedBy:
+        type: string
+      comment:
+        type: string
+      newStatus:
+        type: string
+      previousStatus:
+        type: string
+      timestamp:
+        type: string
+    type: object
+host: localhost:8081
+info:
+  contact:
+    email: support@partnerportal.com
+    name: API Support
+  description: API for managing partners, opportunities, products, and accounts in
+    the Partner Portal
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Partner Portal API
+  version: "1.0"
+paths:
+  /accounts:
+    get:
+      consumes:
+      - application/json
+      description: Get paginated list of all accounts with optional filters
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 25
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Filter by username
+        in: query
+        name: username
+        type: string
+      - description: Filter by email
+        in: query
+        name: email
+        type: string
+      - description: Filter by role
+        in: query
+        name: role
+        type: string
+      - description: Filter by active status
+        in: query
+        name: isActive
+        type: boolean
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Paginated accounts
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: List all accounts
+      tags:
+      - accounts
+    post:
+      consumes:
+      - application/json
+      description: Create a new partner account (partner must be approved)
+      parameters:
+      - description: Account data
+        in: body
+        name: account
+        required: true
+        schema:
+          $ref: '#/definitions/models.AccountCreateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/models.Account'
+        "400":
+          description: Invalid request body
+          schema:
+            type: string
+        "403":
+          description: Partner not approved
+          schema:
+            type: string
+        "409":
+          description: Username already exists
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Create new account
+      tags:
+      - accounts
+  /accounts/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get a single account by its ID
+      parameters:
+      - description: Account ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Account'
+        "404":
+          description: Account not found
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Get account by ID
+      tags:
+      - accounts
+    put:
+      consumes:
+      - application/json
+      description: Update account details (excluding password)
+      parameters:
+      - description: Account ID
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: Account update data
+        in: body
+        name: account
+        required: true
+        schema:
+          $ref: '#/definitions/models.AccountUpdateRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Account'
+        "400":
+          description: Invalid request body
+          schema:
+            type: string
+        "404":
+          description: Account not found
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Update account
+      tags:
+      - accounts
+  /accounts/{id}/change-password:
+    post:
+      consumes:
+      - application/json
+      description: Change password for an account
+      parameters:
+      - description: Account ID
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: Password change data
+        in: body
+        name: password
+        required: true
+        schema:
+          $ref: '#/definitions/models.ChangePasswordRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Invalid request body
+          schema:
+            type: string
+        "401":
+          description: Current password incorrect
+          schema:
+            type: string
+        "404":
+          description: Account not found
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Change account password
+      tags:
+      - accounts
+  /auth/login:
+    post:
+      consumes:
+      - application/json
+      description: Authenticate user with username and password, returns JWT token
+      parameters:
+      - description: Login credentials
+        in: body
+        name: credentials
+        required: true
+        schema:
+          $ref: '#/definitions/handlers.LoginRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/handlers.LoginResponse'
+        "400":
+          description: Invalid request body
+          schema:
+            type: string
+        "401":
+          description: Invalid credentials or account inactive
+          schema:
+            type: string
+      summary: User login
+      tags:
+      - auth
+  /health:
+    get:
+      consumes:
+      - application/json
+      description: Check if the API and database are healthy
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "503":
+          description: Service Unavailable
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Health check
+      tags:
+      - health
+  /opportunities:
+    post:
+      consumes:
+      - application/json
+      description: Register a new opportunity
+      parameters:
+      - description: Opportunity data
+        in: body
+        name: opportunity
+        required: true
+        schema:
+          $ref: '#/definitions/models.OpportunityRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/models.Opportunity'
+        "400":
+          description: Invalid request body
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Create new opportunity
+      tags:
+      - opportunities
+  /partners:
+    get:
+      consumes:
+      - application/json
+      description: Get paginated list of partners with optional filters
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 25
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Filter by company name
+        in: query
+        name: companyName
+        type: string
+      - description: Filter by country
+        in: query
+        name: country
+        type: string
+      - description: Filter by partner type
+        in: query
+        name: partnerType
+        type: string
+      - description: Filter by registration status
+        in: query
+        name: registrationStatus
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Paginated partners
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: List all partners
+      tags:
+      - partners
+  /partners/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get a single partner by its ID
+      parameters:
+      - description: Partner ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Partner'
+        "400":
+          description: Missing partner ID
+          schema:
+            type: string
+        "404":
+          description: Partner not found
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Get partner by ID
+      tags:
+      - partners
+    put:
+      consumes:
+      - application/json
+      description: Update partner details or status
+      parameters:
+      - description: Partner ID
+        in: path
+        name: id
+        required: true
+        type: string
+      - description: Partner update data
+        in: body
+        name: partner
+        required: true
+        schema:
+          $ref: '#/definitions/models.Partner'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Partner'
+        "400":
+          description: Invalid request
+          schema:
+            type: string
+        "404":
+          description: Partner not found
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: Update partner
+      tags:
+      - partners
+  /partners/register:
+    post:
+      consumes:
+      - application/json
+      description: Register a new partner (public endpoint, no authentication required)
+      parameters:
+      - description: Partner registration data
+        in: body
+        name: partner
+        required: true
+        schema:
+          $ref: '#/definitions/models.PartnerRegistrationRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/models.Partner'
+        "400":
+          description: Invalid request body
+          schema:
+            type: string
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      summary: Register new partner
+      tags:
+      - partners
+  /products:
+    get:
+      consumes:
+      - application/json
+      description: Get paginated list of products with optional filters
+      parameters:
+      - default: 1
+        description: Page number
+        in: query
+        name: page
+        type: integer
+      - default: 25
+        description: Items per page
+        in: query
+        name: limit
+        type: integer
+      - description: Filter by product name
+        in: query
+        name: name
+        type: string
+      - description: Filter by category
+        in: query
+        name: category
+        type: string
+      - description: Filter by active status
+        in: query
+        name: isActive
+        type: boolean
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Paginated products
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal server error
+          schema:
+            type: string
+      security:
+      - BearerAuth: []
+      summary: List all products
+      tags:
+      - products
+securityDefinitions:
+  BearerAuth:
+    description: Type "Bearer" followed by a space and JWT token.
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

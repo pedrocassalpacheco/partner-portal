@@ -1,0 +1,152 @@
+[
+  {
+    "username": "john.doe@techsolutions.com",
+    "password": "Password123!",
+    "email": "john.doe@techsolutions.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Tech Solutions Inc"
+  },
+  {
+    "username": "jane.smith@dataanalytics.com",
+    "password": "Password123!",
+    "email": "jane.smith@dataanalytics.com",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Data Analytics Pro"
+  },
+  {
+    "username": "admin@cloudinnovations.com",
+    "password": "Password123!",
+    "email": "admin@cloudinnovations.com",
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Cloud Innovations Ltd"
+  },
+  {
+    "username": "admin@globalconsulting.com",
+    "password": "Password123!",
+    "email": "admin@globalconsulting.com",
+    "firstName": "Sarah",
+    "lastName": "Williams",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Global Consulting Services"
+  },
+  {
+    "username": "admin@cybersecure.com",
+    "password": "Password123!",
+    "email": "admin@cybersecure.com",
+    "firstName": "David",
+    "lastName": "Brown",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "CyberSecure Solutions"
+  },
+  {
+    "username": "admin@aitech.com",
+    "password": "Password123!",
+    "email": "admin@aitech.com",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "AI Tech Partners"
+  },
+  {
+    "username": "admin@nextgendata.com",
+    "password": "Password123!",
+    "email": "admin@nextgendata.com",
+    "firstName": "Robert",
+    "lastName": "Martinez",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "NextGen Data Systems"
+  },
+  {
+    "username": "admin@smartanalytics.com",
+    "password": "Password123!",
+    "email": "admin@smartanalytics.com",
+    "firstName": "Lisa",
+    "lastName": "Anderson",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Smart Analytics Corp"
+  },
+  {
+    "username": "admin@digitaledge.com",
+    "password": "Password123!",
+    "email": "admin@digitaledge.com",
+    "firstName": "James",
+    "lastName": "Wilson",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Digital Edge Technologies"
+  },
+  {
+    "username": "admin@innovatesoft.com",
+    "password": "Password123!",
+    "email": "admin@innovatesoft.com",
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "InnovateSoft Labs"
+  },
+  {
+    "username": "admin@ecosystems.com",
+    "password": "Password123!",
+    "email": "admin@ecosystems.com",
+    "firstName": "Christopher",
+    "lastName": "Taylor",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Ecosystem Technologies"
+  },
+  {
+    "username": "admin@cloudmaster.com",
+    "password": "Password123!",
+    "email": "admin@cloudmaster.com",
+    "firstName": "Jessica",
+    "lastName": "Thomas",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "CloudMaster Solutions"
+  },
+  {
+    "username": "admin@databridge.com",
+    "password": "Password123!",
+    "email": "admin@databridge.com",
+    "firstName": "Daniel",
+    "lastName": "Moore",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "DataBridge Networks"
+  },
+  {
+    "username": "admin@nexustech.com",
+    "password": "Password123!",
+    "email": "admin@nexustech.com",
+    "firstName": "Amanda",
+    "lastName": "Jackson",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Nexus Tech Group"
+  },
+  {
+    "username": "admin@visiondata.com",
+    "password": "Password123!",
+    "email": "admin@visiondata.com",
+    "firstName": "Matthew",
+    "lastName": "White",
+    "role": "partner_admin",
+    "isActive": true,
+    "companyName": "Vision Data Systems"
+  }
+]

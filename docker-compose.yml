@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # ArangoDB Database
+  arangodb:
+    image: arangodb:latest
+    container_name: partner-portal-db
+    environment:
+      ARANGO_ROOT_PASSWORD: ${ARANGO_PASSWORD:-rootpassword}
+    ports:
+      - "8529:8529"
+    volumes:
+      - arango_data:/var/lib/arangodb3
+      - arango_apps:/var/lib/arangodb3-apps
+    networks:
+      - partner-portal-network
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8529/_api/version"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Go Backend API
+  backend:
+    build:
+      context: ./back-end
+      dockerfile: Dockerfile
+    container_name: partner-portal-backend
+    environment:
+      PORT: 8080
+      JWT_SECRET: ${JWT_SECRET:-your-secret-key-change-in-production}
+      ARANGO_URL: http://arangodb:8529
+      ARANGO_DATABASE: partner_portal
+      ARANGO_USERNAME: root
+      ARANGO_PASSWORD: ${ARANGO_PASSWORD:-rootpassword}
+    ports:
+      - "8081:8080"
+    depends_on:
+      arangodb:
+        condition: service_healthy
+    networks:
+      - partner-portal-network
+    restart: unless-stopped
+
+  # React Frontend
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    container_name: partner-portal-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - partner-portal-network
+    restart: unless-stopped
+
+networks:
+  partner-portal-network:
+    driver: bridge
+
+volumes:
+  arango_data:
+  arango_apps:

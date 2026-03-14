@@ -1,0 +1,107 @@
+[
+  {
+    "sku": "ARANGO-ENT-PROD-LIC",
+    "name": "ArangoDB Enterprise Production License Subscription",
+    "category": "Customer Deployed",
+    "description": "Full-featured enterprise database license for production environments",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-ENT-NONPROD-LIC",
+    "name": "ArangoDB Enterprise Non-Production License Subscription",
+    "category": "Customer Deployed",
+    "description": "Enterprise database license for development and testing environments",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-PLATFORM-PROD-LIC",
+    "name": "Arango Platform Production License Subscription",
+    "category": "Customer Deployed",
+    "description": "Platform license subscription for production deployments",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-PLATFORM-NONPROD-LIC",
+    "name": "Arango Platform Non-Production License Subscription",
+    "category": "Customer Deployed",
+    "description": "Platform license subscription for non-production environments",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-AI-SUITE-PROD-LIC",
+    "name": "Arango Agentic AI Suite Production License Subscription",
+    "category": "Customer Deployed",
+    "description": "AI-powered suite license for production AI applications",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-AI-SUITE-NONPROD-LIC",
+    "name": "Arango Agentic AI Suite Non-Production License Subscription",
+    "category": "Customer Deployed",
+    "description": "AI suite license for development and testing of AI applications",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-MANAGED-PROD",
+    "name": "Arango Managed Platform Production",
+    "category": "Arango Managed Platform",
+    "description": "Fully managed cloud platform for production workloads",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-MANAGED-NONPROD",
+    "name": "Arango Managed Platform Non-Production",
+    "category": "Arango Managed Platform",
+    "description": "Managed cloud platform for development and testing",
+    "isActive": true
+  },
+  {
+    "sku": "ARANGO-ENT-OEM",
+    "name": "Arango Enterprise OEM",
+    "category": "OEM",
+    "description": "OEM licensing for embedding ArangoDB in third-party products",
+    "isActive": true
+  },
+  {
+    "sku": "SUPPORT-SILVER",
+    "name": "Silver Support",
+    "category": "Support",
+    "description": "Standard support with business hours coverage",
+    "isActive": true
+  },
+  {
+    "sku": "SUPPORT-GOLD",
+    "name": "Gold Support",
+    "category": "Support",
+    "description": "Enhanced support with extended hours and faster response times",
+    "isActive": true
+  },
+  {
+    "sku": "SUPPORT-PLATINUM",
+    "name": "Platinum Support",
+    "category": "Support",
+    "description": "Premium 24/7 support with dedicated resources and fastest response",
+    "isActive": true
+  },
+  {
+    "sku": "PS-STARTER-PACK",
+    "name": "Starter Pack",
+    "category": "Professional Services",
+    "description": "Initial consulting package for getting started with ArangoDB",
+    "isActive": true
+  },
+  {
+    "sku": "PS-PROFESSIONAL-PACK",
+    "name": "Professional Pack",
+    "category": "Professional Services",
+    "description": "Comprehensive consulting for enterprise implementation",
+    "isActive": true
+  },
+  {
+    "sku": "PS-EXPERT-PACK",
+    "name": "Expert Pack",
+    "category": "Professional Services",
+    "description": "Advanced consulting for complex architectures and optimization",
+    "isActive": true
+  }
+]

@@ -1,0 +1,1049 @@
+[
+  {
+    "companyName": "Tech Solutions Inc",
+    "country": "United States",
+    "primaryPartnerBusiness": [
+      "Systems Integrator",
+      "Consulting Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Mid-Market"
+    ],
+    "numberOfEmployees": "201-500",
+    "annualRevenue": "$50M-$100M",
+    "useCases": [
+      "Knowledge Graph",
+      "Fraud Detection & Analytics",
+      "Machine Learning & AI",
+      "Semantic Search"
+    ],
+    "graphDatabaseFit": "Core technology for our data platform solutions",
+    "industryVerticalFocus": [
+      "Technology & Software",
+      "Financial Services"
+    ],
+    "keyPartners": "AWS, Microsoft Azure, Google Cloud",
+    "arangoEngagements": "5-10",
+    "trainedStaffMembers": "15-20",
+    "aiExperience": "12-15",
+    "additionalComments": "Looking to expand partnership in Q2 2026",
+    "registrationStatus": "registered",
+    "daysAgo": 90,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "John",
+        "lastName": "Doe",
+        "jobTitle": "Chief Technology Officer",
+        "businessEmail": "john.doe@techsolutions.com",
+        "phoneNumber": "+1-555-0101"
+      }
+    ]
+  },
+  {
+    "companyName": "Data Analytics Pro",
+    "country": "United Kingdom",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "ISV (Independent Software Vendor)"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "SMB (Small-Medium Business)"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$10M-$50M",
+    "useCases": [
+      "Real-Time Recommendations",
+      "Customer 360",
+      "Master Data Management",
+      "Personalization Engines"
+    ],
+    "graphDatabaseFit": "Essential for our analytics and recommendation engine",
+    "industryVerticalFocus": [
+      "Retail & E-commerce",
+      "Healthcare & Life Sciences"
+    ],
+    "keyPartners": "Snowflake, Databricks, Tableau",
+    "arangoEngagements": "10-15",
+    "trainedStaffMembers": "20-25",
+    "aiExperience": "18-22",
+    "additionalComments": "Interested in joint marketing initiatives",
+    "registrationStatus": "registered",
+    "daysAgo": 85,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "jobTitle": "VP of Engineering",
+        "businessEmail": "jane.smith@dataanalytics.com",
+        "phoneNumber": "+44-20-7123-4567"
+      }
+    ]
+  },
+  {
+    "companyName": "Cloud Innovations Ltd",
+    "country": "Canada",
+    "primaryPartnerBusiness": [
+      "Technology Partner",
+      "Reseller"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Government"
+    ],
+    "numberOfEmployees": "501-1000",
+    "annualRevenue": "$100M-$500M",
+    "useCases": [
+      "Network & IT Operations",
+      "Supply Chain",
+      "Identity & Access Management",
+      "Smart Cities"
+    ],
+    "graphDatabaseFit": "Integrated into our cloud infrastructure platform",
+    "industryVerticalFocus": [
+      "Government & Public Sector",
+      "Telecommunications",
+      "Energy & Utilities"
+    ],
+    "keyPartners": "Oracle, SAP, IBM",
+    "arangoEngagements": "20+",
+    "trainedStaffMembers": "30+",
+    "aiExperience": "25+",
+    "additionalComments": "Seeking co-selling opportunities",
+    "registrationStatus": "registered",
+    "daysAgo": 80,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Mike",
+        "lastName": "Johnson",
+        "jobTitle": "Director of Partnerships",
+        "businessEmail": "mike.j@cloudinnovations.ca",
+        "phoneNumber": "+1-416-555-0199"
+      }
+    ]
+  },
+  {
+    "companyName": "Global Systems GmbH",
+    "country": "Germany",
+    "primaryPartnerBusiness": [
+      "Systems Integrator"
+    ],
+    "marketFocus": [
+      "Enterprise"
+    ],
+    "numberOfEmployees": "1001-5000",
+    "annualRevenue": "$500M-$1B",
+    "useCases": [
+      "Knowledge Graph",
+      "Master Data Management",
+      "Supply Chain",
+      "IoT & Sensor Data"
+    ],
+    "graphDatabaseFit": "Strategic component of enterprise data architecture",
+    "industryVerticalFocus": [
+      "Manufacturing",
+      "Professional Services"
+    ],
+    "keyPartners": "SAP, Siemens, Bosch",
+    "arangoEngagements": "15-20",
+    "trainedStaffMembers": "40+",
+    "aiExperience": "30+",
+    "additionalComments": "Expanding to EMEA region",
+    "registrationStatus": "declined",
+    "daysAgo": 75,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Anna",
+        "lastName": "Mueller",
+        "jobTitle": "Head of Solutions",
+        "businessEmail": "a.mueller@globalsystems.de",
+        "phoneNumber": "+49-30-1234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "Apex Digital Solutions",
+    "country": "Mexico",
+    "primaryPartnerBusiness": [
+      "Consulting Partner",
+      "Solution Provider"
+    ],
+    "marketFocus": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "numberOfEmployees": "11-50",
+    "annualRevenue": "$1M-$10M",
+    "useCases": [
+      "Fraud Detection & Analytics",
+      "Customer 360",
+      "Real-Time Recommendations",
+      "Risk Management"
+    ],
+    "graphDatabaseFit": "Core offering for financial services clients",
+    "industryVerticalFocus": [
+      "Financial Services",
+      "Retail & E-commerce"
+    ],
+    "keyPartners": "Salesforce, Adobe, HubSpot",
+    "arangoEngagements": "3-5",
+    "trainedStaffMembers": "8-10",
+    "aiExperience": "6-8",
+    "additionalComments": "New partner, eager to grow",
+    "registrationStatus": "requested",
+    "daysAgo": 70,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Carlos",
+        "lastName": "Rodriguez",
+        "jobTitle": "Chief Innovation Officer",
+        "businessEmail": "carlos.r@apexdigital.com.mx",
+        "phoneNumber": "+52-55-1234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "Pacific Tech Partners",
+    "country": "Japan",
+    "primaryPartnerBusiness": [
+      "Technology Partner",
+      "Systems Integrator"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Technology"
+    ],
+    "numberOfEmployees": "201-500",
+    "annualRevenue": "$50M-$100M",
+    "useCases": [
+      "Network & IT Operations",
+      "Knowledge Graph",
+      "Identity & Access Management",
+      "Security & Compliance"
+    ],
+    "graphDatabaseFit": "Key technology in our enterprise architecture practice",
+    "industryVerticalFocus": [
+      "Technology & Software",
+      "Manufacturing",
+      "Transportation & Logistics"
+    ],
+    "keyPartners": "Fujitsu, NEC, Hitachi",
+    "arangoEngagements": "12-15",
+    "trainedStaffMembers": "25-30",
+    "aiExperience": "20-25",
+    "additionalComments": "Strong presence in APAC region",
+    "registrationStatus": "registered",
+    "daysAgo": 65,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Yuki",
+        "lastName": "Tanaka",
+        "jobTitle": "Managing Director",
+        "businessEmail": "y.tanaka@pacifictech.jp",
+        "phoneNumber": "+81-3-1234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "Nordic Digital AB",
+    "country": "Sweden",
+    "primaryPartnerBusiness": [
+      "Systems Integrator",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Mid-Market"
+    ],
+    "numberOfEmployees": "101-500",
+    "annualRevenue": "$20M-$50M",
+    "useCases": [
+      "Knowledge Graph",
+      "IoT & Sensor Data",
+      "Smart Cities",
+      "Network & IT Operations"
+    ],
+    "graphDatabaseFit": "Key infrastructure for smart city projects",
+    "industryVerticalFocus": [
+      "Government & Public Sector",
+      "Energy & Utilities"
+    ],
+    "keyPartners": "Ericsson, Volvo, ABB",
+    "arangoEngagements": "8-12",
+    "trainedStaffMembers": "18-22",
+    "aiExperience": "15-18",
+    "additionalComments": "Focused on Nordic region expansion",
+    "registrationStatus": "registered",
+    "daysAgo": 60,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Lars",
+        "lastName": "Andersson",
+        "jobTitle": "CEO",
+        "businessEmail": "lars@nordicdigital.se",
+        "phoneNumber": "+46-8-123-4567"
+      }
+    ]
+  },
+  {
+    "companyName": "Australian Data Services",
+    "country": "Australia",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Consulting Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "SMB (Small-Medium Business)"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$10M-$50M",
+    "useCases": [
+      "Customer 360",
+      "Real-Time Recommendations",
+      "Supply Chain",
+      "Personalization Engines"
+    ],
+    "graphDatabaseFit": "Enables our customer intelligence platform",
+    "industryVerticalFocus": [
+      "Retail & E-commerce",
+      "Transportation & Logistics"
+    ],
+    "keyPartners": "Atlassian, Xero, WiseTech",
+    "arangoEngagements": "6-10",
+    "trainedStaffMembers": "12-15",
+    "aiExperience": "10-12",
+    "additionalComments": "Growing presence in APAC",
+    "registrationStatus": "declined",
+    "daysAgo": 55,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Sarah",
+        "lastName": "Williams",
+        "jobTitle": "Partner Manager",
+        "businessEmail": "s.williams@ausdataservices.com.au",
+        "phoneNumber": "+61-2-9876-5432"
+      }
+    ]
+  },
+  {
+    "companyName": "French IT Consultants",
+    "country": "France",
+    "primaryPartnerBusiness": [
+      "Consulting Partner",
+      "Systems Integrator"
+    ],
+    "marketFocus": [
+      "Enterprise"
+    ],
+    "numberOfEmployees": "501-1000",
+    "annualRevenue": "$100M-$500M",
+    "useCases": [
+      "Master Data Management",
+      "Supply Chain",
+      "Knowledge Graph",
+      "Regulatory Compliance"
+    ],
+    "graphDatabaseFit": "Central to our enterprise architecture offerings",
+    "industryVerticalFocus": [
+      "Manufacturing",
+      "Healthcare & Life Sciences"
+    ],
+    "keyPartners": "Dassault Syst\u00e8mes, Capgemini, Atos",
+    "arangoEngagements": "15-20",
+    "trainedStaffMembers": "35+",
+    "aiExperience": "28-32",
+    "additionalComments": "Strong pharmaceutical industry focus",
+    "registrationStatus": "registered",
+    "daysAgo": 50,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Marie",
+        "lastName": "Dubois",
+        "jobTitle": "Technical Director",
+        "businessEmail": "m.dubois@frenchitconsult.fr",
+        "phoneNumber": "+33-1-23-45-67-89"
+      }
+    ]
+  },
+  {
+    "companyName": "Singapore Tech Hub",
+    "country": "Singapore",
+    "primaryPartnerBusiness": [
+      "Technology Partner",
+      "ISV (Independent Software Vendor)"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Technology"
+    ],
+    "numberOfEmployees": "201-500",
+    "annualRevenue": "$50M-$100M",
+    "useCases": [
+      "Fraud Detection & Analytics",
+      "Network & IT Operations",
+      "Identity & Access Management",
+      "Risk Management"
+    ],
+    "graphDatabaseFit": "Powers our FinTech security platform",
+    "industryVerticalFocus": [
+      "Financial Services",
+      "Technology & Software"
+    ],
+    "keyPartners": "DBS, Grab, Sea Limited",
+    "arangoEngagements": "10-15",
+    "trainedStaffMembers": "22-28",
+    "aiExperience": "18-22",
+    "additionalComments": "FinTech specialization",
+    "registrationStatus": "registered",
+    "daysAgo": 45,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Wei",
+        "lastName": "Chen",
+        "jobTitle": "VP of Solutions",
+        "businessEmail": "wei.chen@sgtechhub.sg",
+        "phoneNumber": "+65-6789-1234"
+      }
+    ]
+  },
+  {
+    "companyName": "Brazilian Software Partners",
+    "country": "Brazil",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Reseller"
+    ],
+    "marketFocus": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$10M-$50M",
+    "useCases": [
+      "Customer 360",
+      "Real-Time Recommendations",
+      "Personalization Engines"
+    ],
+    "graphDatabaseFit": "Core component of our CRM solutions",
+    "industryVerticalFocus": [
+      "Retail & E-commerce",
+      "Telecommunications"
+    ],
+    "keyPartners": "TOTVS, Linx, Vivo",
+    "arangoEngagements": "5-8",
+    "trainedStaffMembers": "10-15",
+    "aiExperience": "8-12",
+    "additionalComments": "Expanding in Latin America",
+    "registrationStatus": "requested",
+    "daysAgo": 40,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Paulo",
+        "lastName": "Silva",
+        "jobTitle": "CTO",
+        "businessEmail": "paulo.silva@brsoftware.com.br",
+        "phoneNumber": "+55-11-3456-7890"
+      }
+    ]
+  },
+  {
+    "companyName": "Indian Tech Solutions Pvt Ltd",
+    "country": "India",
+    "primaryPartnerBusiness": [
+      "Systems Integrator",
+      "Consulting Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Government"
+    ],
+    "numberOfEmployees": "1001-5000",
+    "annualRevenue": "$100M-$500M",
+    "useCases": [
+      "Knowledge Graph",
+      "Master Data Management",
+      "Identity & Access Management",
+      "Regulatory Compliance",
+      "Smart Cities"
+    ],
+    "graphDatabaseFit": "Strategic platform for government digital transformation",
+    "industryVerticalFocus": [
+      "Government & Public Sector",
+      "Financial Services",
+      "Healthcare & Life Sciences"
+    ],
+    "keyPartners": "TCS, Infosys, Wipro",
+    "arangoEngagements": "25+",
+    "trainedStaffMembers": "50+",
+    "aiExperience": "40+",
+    "additionalComments": "Large-scale government projects",
+    "registrationStatus": "registered",
+    "daysAgo": 35,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Priya",
+        "lastName": "Sharma",
+        "jobTitle": "Head of Innovation",
+        "businessEmail": "priya.sharma@indiantech.in",
+        "phoneNumber": "+91-22-1234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "South African Data Corp",
+    "country": "South Africa",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Mid-Market"
+    ],
+    "numberOfEmployees": "101-500",
+    "annualRevenue": "$20M-$50M",
+    "useCases": [
+      "Fraud Detection & Analytics",
+      "Supply Chain",
+      "Customer 360",
+      "Risk Management"
+    ],
+    "graphDatabaseFit": "Essential for our fraud prevention solutions",
+    "industryVerticalFocus": [
+      "Financial Services",
+      "Retail & E-commerce"
+    ],
+    "keyPartners": "Naspers, Discovery, MTN",
+    "arangoEngagements": "7-10",
+    "trainedStaffMembers": "15-20",
+    "aiExperience": "12-15",
+    "additionalComments": "Focus on African market",
+    "registrationStatus": "registered",
+    "daysAgo": 30,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Themba",
+        "lastName": "Nkosi",
+        "jobTitle": "Managing Director",
+        "businessEmail": "themba@sadatacorp.co.za",
+        "phoneNumber": "+27-21-123-4567"
+      }
+    ]
+  },
+  {
+    "companyName": "Dutch Innovation Partners BV",
+    "country": "Netherlands",
+    "primaryPartnerBusiness": [
+      "Consulting Partner",
+      "ISV (Independent Software Vendor)"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "SMB (Small-Medium Business)"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$10M-$50M",
+    "useCases": [
+      "IoT & Sensor Data",
+      "Supply Chain",
+      "Network & IT Operations",
+      "Machine Learning & AI"
+    ],
+    "graphDatabaseFit": "Powers our smart logistics platform",
+    "industryVerticalFocus": [
+      "Transportation & Logistics",
+      "Manufacturing"
+    ],
+    "keyPartners": "Philips, ASML, Shell",
+    "arangoEngagements": "8-12",
+    "trainedStaffMembers": "16-20",
+    "aiExperience": "14-18",
+    "additionalComments": "Logistics and supply chain expertise",
+    "registrationStatus": "declined",
+    "daysAgo": 25,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Jan",
+        "lastName": "de Vries",
+        "jobTitle": "Senior Partner",
+        "businessEmail": "jan@dutchinnovation.nl",
+        "phoneNumber": "+31-20-123-4567"
+      }
+    ]
+  },
+  {
+    "companyName": "Spanish Tech Ventures SL",
+    "country": "Spain",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "numberOfEmployees": "101-500",
+    "annualRevenue": "$20M-$50M",
+    "useCases": [
+      "Customer 360",
+      "Real-Time Recommendations",
+      "Knowledge Graph",
+      "Personalization Engines"
+    ],
+    "graphDatabaseFit": "Core technology for tourism industry solutions",
+    "industryVerticalFocus": [
+      "Hospitality & Tourism",
+      "Retail & E-commerce"
+    ],
+    "keyPartners": "Telef\u00f3nica, Amadeus, Inditex",
+    "arangoEngagements": "6-10",
+    "trainedStaffMembers": "14-18",
+    "aiExperience": "12-16",
+    "additionalComments": "Tourism and hospitality focus",
+    "registrationStatus": "registered",
+    "daysAgo": 20,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Isabel",
+        "lastName": "Garcia",
+        "jobTitle": "CEO",
+        "businessEmail": "isabel@spanishtechventures.es",
+        "phoneNumber": "+34-91-234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "Korean Systems Integration Co",
+    "country": "South Korea",
+    "primaryPartnerBusiness": [
+      "Systems Integrator",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Enterprise"
+    ],
+    "numberOfEmployees": "501-1000",
+    "annualRevenue": "$100M-$500M",
+    "useCases": [
+      "Network & IT Operations",
+      "IoT & Sensor Data",
+      "Master Data Management",
+      "Smart Cities"
+    ],
+    "graphDatabaseFit": "Strategic component of 5G and IoT solutions",
+    "industryVerticalFocus": [
+      "Telecommunications",
+      "Technology & Software",
+      "Manufacturing"
+    ],
+    "keyPartners": "Samsung, LG, SK Telecom",
+    "arangoEngagements": "18-22",
+    "trainedStaffMembers": "40+",
+    "aiExperience": "32-38",
+    "additionalComments": "5G and IoT specialization",
+    "registrationStatus": "registered",
+    "daysAgo": 15,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Ji-Hoon",
+        "lastName": "Park",
+        "jobTitle": "Executive VP",
+        "businessEmail": "jhpark@koreansystems.kr",
+        "phoneNumber": "+82-2-1234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "Italian Data Solutions SRL",
+    "country": "Italy",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Consulting Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Mid-Market"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$10M-$50M",
+    "useCases": [
+      "Customer 360",
+      "Master Data Management",
+      "Fraud Detection & Analytics",
+      "Risk Management"
+    ],
+    "graphDatabaseFit": "Essential for banking and insurance solutions",
+    "industryVerticalFocus": [
+      "Financial Services",
+      "Healthcare & Life Sciences"
+    ],
+    "keyPartners": "Intesa Sanpaolo, Generali, Enel",
+    "arangoEngagements": "7-12",
+    "trainedStaffMembers": "16-20",
+    "aiExperience": "14-18",
+    "additionalComments": "Financial services focus",
+    "registrationStatus": "requested",
+    "daysAgo": 10,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Marco",
+        "lastName": "Rossi",
+        "jobTitle": "COO",
+        "businessEmail": "marco.rossi@italiandatasolutions.it",
+        "phoneNumber": "+39-02-1234-5678"
+      }
+    ]
+  },
+  {
+    "companyName": "UAE Tech Partners LLC",
+    "country": "United Arab Emirates",
+    "primaryPartnerBusiness": [
+      "Systems Integrator",
+      "Solution Provider"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Government"
+    ],
+    "numberOfEmployees": "201-500",
+    "annualRevenue": "$50M-$100M",
+    "useCases": [
+      "Smart Cities",
+      "Identity & Access Management",
+      "Knowledge Graph",
+      "IoT & Sensor Data"
+    ],
+    "graphDatabaseFit": "Key technology for smart city initiatives",
+    "industryVerticalFocus": [
+      "Government & Public Sector",
+      "Energy & Utilities",
+      "Transportation & Logistics"
+    ],
+    "keyPartners": "Emirates NBD, Etisalat, ADNOC",
+    "arangoEngagements": "12-16",
+    "trainedStaffMembers": "28-34",
+    "aiExperience": "22-26",
+    "additionalComments": "Smart city and government digitalization",
+    "registrationStatus": "registered",
+    "daysAgo": 5,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Ahmed",
+        "lastName": "Al-Mansoori",
+        "jobTitle": "Founder & CEO",
+        "businessEmail": "ahmed@uaetechpartners.ae",
+        "phoneNumber": "+971-4-123-4567"
+      }
+    ]
+  },
+  {
+    "companyName": "Polish Software House Sp. z o.o.",
+    "country": "Poland",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Reseller"
+    ],
+    "marketFocus": [
+      "Mid-Market",
+      "SMB (Small-Medium Business)"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$5M-$10M",
+    "useCases": [
+      "Real-Time Recommendations",
+      "Customer 360",
+      "Supply Chain"
+    ],
+    "graphDatabaseFit": "Core component of e-commerce platforms",
+    "industryVerticalFocus": [
+      "Retail & E-commerce",
+      "Manufacturing"
+    ],
+    "keyPartners": "Allegro, InPost, CD Projekt",
+    "arangoEngagements": "4-7",
+    "trainedStaffMembers": "10-14",
+    "aiExperience": "8-12",
+    "additionalComments": "E-commerce specialization",
+    "daysAgo": 3,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Katarzyna",
+        "lastName": "Kowalska",
+        "jobTitle": "Managing Director",
+        "businessEmail": "k.kowalska@polishsoftware.pl",
+        "phoneNumber": "+48-22-123-4567"
+      }
+    ]
+  },
+  {
+    "companyName": "Argentina Digital SA",
+    "country": "Argentina",
+    "primaryPartnerBusiness": [
+      "Consulting Partner",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Mid-Market"
+    ],
+    "numberOfEmployees": "101-500",
+    "annualRevenue": "$10M-$50M",
+    "useCases": [
+      "Fraud Detection & Analytics",
+      "Customer 360",
+      "Real-Time Recommendations"
+    ],
+    "graphDatabaseFit": "Powers our financial analytics platform",
+    "industryVerticalFocus": [
+      "Financial Services",
+      "Retail & E-commerce"
+    ],
+    "keyPartners": "Mercado Libre, Galicia, Globant",
+    "arangoEngagements": "6-10",
+    "trainedStaffMembers": "12-18",
+    "aiExperience": "10-14",
+    "additionalComments": "FinTech and e-commerce focus",
+    "daysAgo": 1,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Mart\u00edn",
+        "lastName": "Gonz\u00e1lez",
+        "jobTitle": "Head of Technology",
+        "businessEmail": "martin@argentinadigital.com.ar",
+        "phoneNumber": "+54-11-4567-8901"
+      }
+    ]
+  },
+  {
+    "companyName": "Quantum Analytics Corp",
+    "country": "United States",
+    "primaryPartnerBusiness": [
+      "Consulting Partner",
+      "Solution Provider"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Mid-Market"
+    ],
+    "numberOfEmployees": "101-200",
+    "annualRevenue": "$25M-$50M",
+    "useCases": [
+      "Knowledge Graph",
+      "Machine Learning & AI",
+      "Real-Time Recommendations",
+      "Semantic Search"
+    ],
+    "graphDatabaseFit": "Essential for our AI-driven analytics solutions",
+    "industryVerticalFocus": [
+      "Healthcare & Life Sciences",
+      "Financial Services"
+    ],
+    "keyPartners": "Google Cloud, Vertex AI, Looker",
+    "arangoEngagements": "8-12",
+    "trainedStaffMembers": "18-22",
+    "aiExperience": "15-20",
+    "additionalComments": "Specializing in healthcare AI applications",
+    "registrationStatus": "registered",
+    "daysAgo": 45,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Sarah",
+        "lastName": "Williams",
+        "jobTitle": "VP of Business Development",
+        "businessEmail": "sarah.williams@quantumanalytics.com",
+        "phoneNumber": "+1-415-555-8899"
+      }
+    ]
+  },
+  {
+    "companyName": "DataFlow Technologies",
+    "country": "United States",
+    "primaryPartnerBusiness": [
+      "ISV (Independent Software Vendor)",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Enterprise"
+    ],
+    "numberOfEmployees": "51-200",
+    "annualRevenue": "$15M-$25M",
+    "useCases": [
+      "Customer 360",
+      "Master Data Management",
+      "Network & IT Operations",
+      "IoT & Sensor Data"
+    ],
+    "graphDatabaseFit": "Core database powering our data integration platform",
+    "industryVerticalFocus": [
+      "Technology & Software",
+      "Manufacturing"
+    ],
+    "keyPartners": "AWS, Confluent, Apache Kafka",
+    "arangoEngagements": "12-18",
+    "trainedStaffMembers": "25-30",
+    "aiExperience": "20-25",
+    "additionalComments": "Building next-gen real-time data pipelines",
+    "registrationStatus": "registered",
+    "daysAgo": 30,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Michael",
+        "lastName": "Chen",
+        "jobTitle": "Chief Technology Officer",
+        "businessEmail": "mchen@dataflowtech.com",
+        "phoneNumber": "+1-206-555-3344"
+      }
+    ]
+  },
+  {
+    "companyName": "NextGen Insights LLC",
+    "country": "United States",
+    "primaryPartnerBusiness": [
+      "Solution Provider",
+      "Consulting Partner"
+    ],
+    "marketFocus": [
+      "Mid-Market",
+      "SMB (Small-Medium Business)"
+    ],
+    "numberOfEmployees": "26-50",
+    "annualRevenue": "$5M-$10M",
+    "useCases": [
+      "Personalization Engines",
+      "Real-Time Recommendations",
+      "Customer 360",
+      "Fraud Detection & Analytics"
+    ],
+    "graphDatabaseFit": "Powers our customer intelligence platform",
+    "industryVerticalFocus": [
+      "Retail & E-commerce",
+      "Media & Entertainment"
+    ],
+    "keyPartners": "Shopify, Stripe, Segment",
+    "arangoEngagements": "4-8",
+    "trainedStaffMembers": "8-12",
+    "aiExperience": "6-10",
+    "additionalComments": "Focus on e-commerce personalization",
+    "registrationStatus": "requested",
+    "daysAgo": 15,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Jennifer",
+        "lastName": "Martinez",
+        "jobTitle": "Director of Product Strategy",
+        "businessEmail": "j.martinez@nextgeninsights.com",
+        "phoneNumber": "+1-512-555-7766"
+      }
+    ]
+  },
+  {
+    "companyName": "Fusion Data Systems",
+    "country": "United States",
+    "primaryPartnerBusiness": [
+      "Systems Integrator",
+      "Technology Partner"
+    ],
+    "marketFocus": [
+      "Enterprise",
+      "Government"
+    ],
+    "numberOfEmployees": "501-1000",
+    "annualRevenue": "$100M-$250M",
+    "useCases": [
+      "Identity & Access Management",
+      "Fraud Detection & Analytics",
+      "Knowledge Graph",
+      "Smart Cities"
+    ],
+    "graphDatabaseFit": "Integrated into our enterprise security and governance suite",
+    "industryVerticalFocus": [
+      "Government & Public Sector",
+      "Financial Services",
+      "Healthcare & Life Sciences"
+    ],
+    "keyPartners": "Microsoft Azure, Okta, Splunk",
+    "arangoEngagements": "20+",
+    "trainedStaffMembers": "35+",
+    "aiExperience": "28+",
+    "additionalComments": "Strong government sector presence, security clearances",
+    "registrationStatus": "registered",
+    "daysAgo": 60,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Robert",
+        "lastName": "Thompson",
+        "jobTitle": "Senior Vice President",
+        "businessEmail": "rthompson@fusiondatasys.com",
+        "phoneNumber": "+1-617-555-2211"
+      }
+    ]
+  },
+  {
+    "companyName": "Velocity AI Partners",
+    "country": "United States",
+    "primaryPartnerBusiness": [
+      "Consulting Partner",
+      "ISV (Independent Software Vendor)"
+    ],
+    "marketFocus": [
+      "Mid-Market",
+      "Enterprise"
+    ],
+    "numberOfEmployees": "11-25",
+    "annualRevenue": "$1M-$5M",
+    "useCases": [
+      "Machine Learning & AI",
+      "Semantic Search",
+      "Knowledge Graph",
+      "Personalization Engines"
+    ],
+    "graphDatabaseFit": "Foundation for our AI knowledge management platform",
+    "industryVerticalFocus": [
+      "Technology & Software",
+      "Professional Services"
+    ],
+    "keyPartners": "OpenAI, LangChain, Pinecone",
+    "arangoEngagements": "3-5",
+    "trainedStaffMembers": "5-8",
+    "aiExperience": "4-6",
+    "additionalComments": "Early-stage startup, fast-growing AI consulting practice",
+    "registrationStatus": "requested",
+    "daysAgo": 7,
+    "contacts": [
+      {
+        "type": "business",
+        "firstName": "Amanda",
+        "lastName": "Davis",
+        "jobTitle": "Co-Founder & CEO",
+        "businessEmail": "amanda@velocityai.com",
+        "phoneNumber": "+1-720-555-9988"
+      }
+    ]
+  }
+]
